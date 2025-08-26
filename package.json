@@ -1,0 +1,19 @@
+{
+  "name": "dnd-character-generator",
+  "version": "1.0.0",
+  "description": "D&D Character Generator with Sogni AI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@sogni-ai/sogni-client": "^3.1.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "uuid": "^11.1.0"
+  }
+}
